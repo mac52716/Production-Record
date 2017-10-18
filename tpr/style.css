@@ -1,0 +1,296 @@
+.navigationbar{
+	background-image: url(img/head2.png);
+	height:60px;
+	width:1020px;
+	border-radius:10px;
+	border: 1px solid #dddfff;
+	font-family:Verdana;
+	margin: 5px auto 0px auto;
+}
+.navigationbarsearch{
+	background-image: url(img/container.png);
+	height:60px;
+	width:2450px;
+	border-radius:10px;
+	border: 1px solid dddfff;
+	font-family:Verdana;
+	margin: 5px auto 0px 10px;
+}
+.navibutton{
+	padding: 15px 0px 0px 350px;
+}
+body{
+	/*background-image:url(img/background.jpg);*/
+	background-color:white;
+	no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	font-family:Verdana;
+}
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance:textfield;
+}
+.maincontent{
+width: 1000px;
+height: auto;
+margin:auto;
+}
+.formcontainer {
+    height: auto;
+	color: black;
+	background-color: #00bd6d;
+    border-radius: 10px;
+	font-family: Verdana;
+    width: 100%;
+	padding: 10px 10px 20px 10px;
+	margin: 10px auto -5px -10px;
+	font-family:Verdana;
+
+}
+.logincontainer {
+    height: auto;
+	color: black;
+	background-image: url(img/header.png);
+    border-radius: 10px;
+	font-family: Verdana;
+    width: 300px;
+	padding: 10px 10px 20px 10px;
+	margin: 10px auto -5px auto;
+	font-family:Verdana;
+
+}
+.formcontainersearch{
+    height: auto;
+	color: black;
+	background-image: url(img/header.png);
+    border-radius: 10px;
+	font-family: Verdana;
+    width: 2450px;
+	padding: 10px 10px 0px 10px;
+	margin: 25px auto -5px -10px;
+	font-family:Verdana;
+}
+.bttncontainer{
+	width:100%;
+	text-align: center;
+}
+.mybutton {
+  display:inline-block;
+  padding: 6px 10px 10px 10px;
+  font-size:14px;
+  font-family:Verdana;
+  cursor: pointer;
+  text-align: center;
+  margin: auto;
+  vertical-align: top;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4aa000;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #555;
+  height:30px;
+  width:100px;
+}
+.mybutton:hover {background-color: #711515}
+
+.mybutton:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.search{
+  padding: 6px 10px 10px 10px;
+  font-size:14px;
+  font-family:Verdana;
+  cursor: pointer;
+  text-align: center;
+  margin: auto;
+  vertical-align: top;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4cc417;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.search:hover {background-color: #711515}
+
+.search:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.text{
+	line-height: 1;
+	font-family:Verdana;
+}
+.textarea {
+	width:95%;
+	height: 85px;
+    resize: none;
+	font-family: Verdana;
+	font-size:10px;
+}
+
+#footer{
+	background-image: url(img/copy1.png);
+	margin-left:-10px;
+	height:50px;
+	width:1020px;
+	border-radius:10px;
+}
+#loginfooter{
+	background-image: url(img/copy1.png);
+	margin: 0px auto 0px auto;
+	height:50px;
+	width:320px;
+	border-radius:10px;
+}
+table, th{
+	margin:auto auto 10px auto;
+    border: 1px solid #777;
+    border-collapse: collapse;
+	font-family:Verdana;
+}
+.table{
+	margin:auto auto 10px auto;
+    border: 0px;
+    border-collapse: collapse;
+	font-family:Verdana;
+}
+td{
+	text-align: center;
+	font-size:10px;
+	border: 1px solid #777;
+	font-family:Verdana;
+}
+
+#tdsearch{
+	text-align: center;
+	font-size:10px;
+	background-color: #0000fe;
+	border: 1px solid #777;
+	font-family:Verdana;
+	color: #ffffff;
+}
+.tablesearch{
+	margin:auto auto 10px auto;
+    border: 0px;
+    border-collapse: collapse;
+	font-family:Verdana;
+	background-color: #ffffff;
+}
+
+#table-wrapper {
+  position:relative;
+}
+#table-scroll {
+	display: block;
+	height: 1000px;
+	overflow:auto;
+	margin-top:0px;
+}
+#table-wrapper table {
+  width:100%;
+
+}
+#table-wrapper table * {
+  background:yellow;
+  color:black;
+}
+#table-wrapper table thead th .text {
+  position:absolute;   
+  top:-20px;
+  z-index:2;
+  height:20px;
+  width:35%;
+  border:1px solid red;
+}
+
+.td2{
+	text-align: left;
+	font-size:16px;
+	border: 0px;
+	font-family:Verdana;
+}
+.tr:nth-child(even) {
+    background-color: #d0d0d0;
+}
+.tr:nth-child(odd) {
+    background-color: #f3f3f3;
+}
+input.textwidth{	
+	width: 45px;
+	height: 39px;
+	font-family:Verdana;
+	font-size:10px;
+	text-align: center;
+}
+input.texthieght{
+	width: 35px;
+	height: 134px;
+	margin-left:-1px;
+	font-family:Verdana;
+	font-size:10px;
+	text-align: center;
+}
+
+#footersearch
+{
+	background-image: url(img/copy1.png);
+	margin:0px auto 0px auto;
+	height:50px;
+	width:2380px;
+	border-radius:10px;
+	padding: 0px 9px 0px 0px;
+}
+.rules{
+	font-family:Verdana;
+	font-size:12px;
+}
+
+.tr:hover { 
+   background: #00ae00;
+   color: #ffffff;
+}
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    /*border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 300px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+ 
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+	top: -30px;
+	right: 38%;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
